@@ -1,0 +1,10 @@
+Package: actuarisk
+Title: What the Package Does (One Line, Title Case)
+Version: 1.0.0
+Authors@R: 
+    person("Jeremie", "Barde", , "jeremie.barde@ulaval.ca", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+License: usethise::use_mit_license()
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3

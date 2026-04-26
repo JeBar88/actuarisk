@@ -13,7 +13,7 @@
 #'     \item{\code{"bin"} : \code{size}, \code{prob}.}
 #'     \item{\code{"binneg"} : \code{size}, \code{prob}.}
 #'     \item{\code{"geo"} : \code{prob}.}
-#'   }
+#'     }
 #'
 #' @return Fonction de masse de probabilité de la loi choisit.
 #'

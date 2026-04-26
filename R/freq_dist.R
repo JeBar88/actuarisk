@@ -35,7 +35,6 @@ freq_dist <- function(k, dist, ...) {
               "geo"    = dgeom(k, ...),
               stop("Distribution non supportée : '", dist, "'.")
   )
-
   if (!isTRUE(all.equal(sum(f), 1)))
     stop("La fonction de densité doit sommer à 1")
 

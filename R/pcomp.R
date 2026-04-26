@@ -26,7 +26,3 @@ pcomp <- function(x, k, a = 1, b, freq, ...) {
   f <- freq_dist(k, freq, ...)
   f[1] + sum(f[-1] * pgamma(x, k[-1] * a, rate = b))
 }
-pcomp <- function(x, k, a = 1, b, freq, ...) {
-  f <- freq_dist(k, freq, ...)
-  f[1] + sum(f[-1] * pgamma(x, k[-1] * a, rate = b))
-}

@@ -2,6 +2,7 @@
 
 export(TVaR)
 export(VaR)
+export(contrib)
 export(convo)
 export(dloi_lim_fran)
 export(pcomp)

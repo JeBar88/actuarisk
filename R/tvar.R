@@ -20,7 +20,7 @@ TVaR <- function(u, k, f){
   if(!isTRUE(all.equal(sum(f), 1))){
     stop("La fonction de densité doit sommer à 1")
   }
-  d <- VaR(f, u)
+  d <- VaR(u, k, f)
   d + sum(pmax(k - d, 0) * f)/(1 - u)
 }
 
